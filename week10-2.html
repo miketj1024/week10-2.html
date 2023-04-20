@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week10Codingprojx</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="">
+<div class="border border-warning" class="container">
+    <br>
+    <div class="row" >
+        <div class="border border-warning" class="col-xl">
+            <table id="myTable" class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td >@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        
+        
+    </div>
+    <br>
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="border border-warning"  class="col-xl">
+                    <div class="form-group">
+                    <lable class="p-0.5 mb-2 bg-warning text-dark"  for="number">number</lable>
+                    <input type="text" class="form-control" id="number">
+                    <lable class="p-0.5 mb-2 bg-warning text-dark"  for="firstname">first name</lable>
+                    <input type="text" class="form-control" id="firstname">
+                    <lable class="p-0.5 mb-2 bg-warning text-dark"  for="lastname">last name</lable>
+                    <input type="text" class="form-control" id="lastname">
+                    <lable class="p-0.5 mb-2 bg-warning text-dark"  for="handle">handle contact</lable>
+                    <input type="text" class="form-control" id="handle">
+                    </div>
+                </div>    
+                <button class="btn btn-primary" onclick="addData()">Add Row</button>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="week10-2.js"></script>
+</div>
+</body>
+</html>
